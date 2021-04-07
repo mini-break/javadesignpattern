@@ -1,5 +1,6 @@
 package cn.javass.dp.proxy.example6;
 /**
+ * 目标对象
  * 订单对象
  */
 public class Order{

@@ -1,9 +1,8 @@
 package cn.javass.dp.memento.example3;
 
-import java.io.Serializable;
-
 /**
  * 模拟运行流程A，只是一个示意，代指某个具体流程
+ * 原发器
  */
 public class FlowAMock{
 	/**

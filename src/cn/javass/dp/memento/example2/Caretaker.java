@@ -1,5 +1,5 @@
 package cn.javass.dp.memento.example2;
-import java.util.*;
+
 /**
  * 负责保存备忘录的对象
  */

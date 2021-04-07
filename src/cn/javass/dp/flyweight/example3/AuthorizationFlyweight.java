@@ -28,6 +28,7 @@ public class AuthorizationFlyweight implements Flyweight{
 		return permit;
 	}
 
+	@Override
 	public boolean match(String securityEntity, String permit) {
 		if(this.securityEntity.equals(securityEntity) 
 				&& this.permit.equals(permit)){

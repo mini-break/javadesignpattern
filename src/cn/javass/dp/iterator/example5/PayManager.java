@@ -30,7 +30,8 @@ public class PayManager extends Aggregate{
 		list.add(pm1);
 		list.add(pm2);
 	}
-	
+
+	@Override
 	public Iterator createIterator() {
 		return list.iterator();
 	}

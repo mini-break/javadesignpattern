@@ -1,7 +1,5 @@
 package cn.javass.dp.flyweight.example4;
 
-import java.util.Collection;
-
 /**
  * 封装授权数据中重复出现部分的享元对象
  */

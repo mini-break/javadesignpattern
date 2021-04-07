@@ -18,7 +18,7 @@ public class ArrayIteratorImpl implements Iterator{
 		this.aggregate = aggregate;
 	}
 	
-	
+	@Override
 	public boolean hasNext() {
 		//判断是否还有下一个元素
 		if(aggregate!=null && index<aggregate.size()){
@@ -27,7 +27,7 @@ public class ArrayIteratorImpl implements Iterator{
 		return false;
 	}
 
-	
+	@Override
 	public Object next() {
 		Object retObj = null;
 		if(hasNext()){

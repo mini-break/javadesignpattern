@@ -8,7 +8,8 @@ public class MonthPrizeDecorator extends Decorator{
 	public MonthPrizeDecorator(Component c){
 		super(c);
 	}
-	
+
+	@Override
 	public double calcPrize(String user, Date begin, Date end) {
 		//1：先获取前面运算出来的奖金
 		double money = super.calcPrize(user, begin, end);
@@ -17,5 +18,4 @@ public class MonthPrizeDecorator extends Decorator{
 		System.out.println(user+"当月业务奖金"+prize);
 		return money + prize;
 	}
-
 }
